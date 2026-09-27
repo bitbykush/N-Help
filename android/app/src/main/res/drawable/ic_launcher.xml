@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Dark Slate Background with Rounded Corners -->
+    <path
+        android:fillColor="#0B0F19"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="2.5"
+        android:pathData="M18,4 h72 a14,14 0 0 1 14,14 v72 a14,14 0 0 1 -14,14 h-72 a14,14 0 0 1 -14,-14 v-72 a14,14 0 0 1 14,-14 z" />
+
+    <!-- Outer Radiation Dashed/Dotted Ring -->
+    <path
+        android:strokeColor="#475569"
+        android:strokeWidth="1.5"
+        android:pathData="M 54,16 A 38,38 0 1 1 53.9,16" />
+
+    <!-- Radiation Trefoil - Top Blade -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 48,44 A 24,24 0 0 1 60,44 L 68,26 A 36,36 0 0 0 40,26 Z" />
+
+    <!-- Radiation Trefoil - Bottom Right Blade -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 63,57 A 24,24 0 0 1 57,67 L 75,81 A 36,36 0 0 0 86,61 Z" />
+
+    <!-- Radiation Trefoil - Bottom Left Blade -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 51,67 A 24,24 0 0 1 45,57 L 22,61 A 36,36 0 0 0 33,81 Z" />
+
+    <!-- Center Safety Core Circle -->
+    <path
+        android:fillColor="#0B0F19"
+        android:strokeColor="#EF4444"
+        android:strokeWidth="2"
+        android:pathData="M 54,45 A 9,9 0 1 1 53.9,45" />
+
+    <!-- Red Cross Center -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M 52.5,49.5 h3 v9 h-3 z" />
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M 49.5,52.5 h9 v3 h-9 z" />
+</vector>

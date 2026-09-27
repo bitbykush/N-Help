@@ -1,0 +1,20 @@
+{
+  "name": "N-HELP: Nuclear Emergency Help & Preparedness",
+  "short_name": "N-HELP",
+  "description": "Offline-first civil defense and peer communication system for nuclear and radiological emergencies.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#0B0F19",
+  "categories": ["utilities", "medical", "news"],
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

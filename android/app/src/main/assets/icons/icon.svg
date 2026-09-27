@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <linearGradient id="gradAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="gradRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#B91C1C" />
+    </linearGradient>
+  </defs>
+  <!-- Background Shield/Rounded Square -->
+  <rect width="512" height="512" rx="110" fill="url(#gradBg)" stroke="#F59E0B" stroke-width="12"/>
+  
+  <!-- Outer Radiation Ring -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#334155" stroke-width="6" stroke-dasharray="14 10"/>
+  
+  <!-- Trefoil Radiation Symbol with Safety Shield Center -->
+  <g transform="translate(256, 256)">
+    <!-- Top Trefoil Leaf -->
+    <path d="M -30,-48 A 120,120 0 0,1 30,-48 L 70,-140 A 180,180 0 0,0 -70,-140 Z" fill="url(#gradAmber)"/>
+    <!-- Bottom Right Trefoil Leaf -->
+    <path d="M 45,15 A 120,120 0 0,1 15,60 L 105,130 A 180,180 0 0,0 160,30 Z" fill="url(#gradAmber)"/>
+    <!-- Bottom Left Trefoil Leaf -->
+    <path d="M -15,60 A 120,120 0 0,1 -45,15 L -160,30 A 180,180 0 0,0 -105,130 Z" fill="url(#gradAmber)"/>
+    
+    <!-- Central Safety Cross Shield -->
+    <circle cx="0" cy="0" r="42" fill="#0B0F19" stroke="#EF4444" stroke-width="8"/>
+    <!-- Medical Cross -->
+    <rect x="-8" y="-22" width="16" height="44" rx="3" fill="#EF4444" />
+    <rect x="-22" y="-8" width="44" height="16" rx="3" fill="#EF4444" />
+  </g>
+  
+  <!-- N-HELP Text Label at Bottom -->
+  <text x="256" y="455" font-family="system-ui, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="6">N-HELP</text>
+</svg>
